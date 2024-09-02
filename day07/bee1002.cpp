@@ -6,7 +6,7 @@ using namespace std;
 class Circle
 {
 public:
-    Circle(double radius);
+    Circle(double vradius);
     double area() const;
 
 private:
