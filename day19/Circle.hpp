@@ -1,4 +1,7 @@
 #include <cmath>
+#include <iostream>
+
+using namespace std;
 
 class Circle {
 
@@ -12,4 +15,8 @@ private:
     double perimeter() {
         return 2 * M_PI * radius;
     }
+
+public:    
+    friend ostream &operator<<(ostream &out, const Circle &c);
+    
 };
