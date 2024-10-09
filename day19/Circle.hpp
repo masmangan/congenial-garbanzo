@@ -17,6 +17,7 @@ private:
     }
 
 public:    
+    Circle();
     friend ostream &operator<<(ostream &out, const Circle &c);
     
 };
